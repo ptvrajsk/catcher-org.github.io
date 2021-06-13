@@ -2,9 +2,44 @@
   "enableSearch": true,
   "pages": [
     {
-      "src": "index.md",
-      "title": "Landing Page",
-      "headings": {},
+      "src": "README.md",
+      "title": "",
+      "headings": {
+        "catcher-product-site": "CATcher Product Site",
+        "setting-up": "Setting up",
+        "prerequisites": "Prerequisites",
+        "getting-started": "Getting Started"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "about-us.md",
+      "title": "About us",
+      "headings": {
+        "about-us": "About us",
+        "current-team-members": "Current team members",
+        "past-team-members": "Past team members"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "dg/design.md",
+      "title": "DG: Design",
+      "headings": {
+        "design": "Design",
+        "views": "Views",
+        "services": "Services"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "dg/dev-workflow.md",
+      "title": "DG: Dev workflow",
+      "headings": {
+        "dev-workflow": "Dev workflow",
+        "choosing-an-issue": "Choosing an issue",
+        "submitting-prs": "Submitting PRs"
+      },
       "headingKeywords": {}
     }
   ]
